@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "tgbtwitchplaysmc",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "TwitchPlaysMC",
+  "description": "Control the Minecraft Client with Twitch",
   "authors": [
-    "Me!"
+    "tgb"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://tgb.gg/",
+    "sources": "https://github.com/tgb20/TwitchPlaysMC"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/tgbtwitchplaysmc/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "gg.tgb.twitchplaysmc.TwitchPlaysMC"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
